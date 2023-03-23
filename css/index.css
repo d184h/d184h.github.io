@@ -1,0 +1,85 @@
+body {
+  background-color: #b8bfc7;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.block {
+  margin: 50px;
+  padding: 50px;
+  text-align: center;
+  color: #846280;
+  font-size: 35px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+#logo img {
+  border-radius: 50%;
+  width: 400px;
+}
+
+#logo {
+  margin: 50px;
+}
+
+.des {
+  margin: 50px;
+  padding: 50px;
+  color: #846280;
+  font-size: 22px;
+  border: 10px double #846280;
+  border-radius: 30px;
+}
+
+.name {
+  margin: 50px;
+  padding: 50px;
+  font-size: 50px;
+  color: #846280;
+}
+
+@keyframes soon {
+  from {
+    color: #b8bfc7;
+  }
+  to {
+    color: #846280;
+  }
+}
+
+.soon {
+  animation-name: soon;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.menu {
+  text-align: center;
+  font-size: 25px;
+  color: #846280;
+}
+
+.aboutme {
+  color: #846280;
+  margin: 70px;
+}
+
+.edu {
+  color: #846280;
+  margin: 70px;
+}
+
+.projects {
+  color: #846280;
+  margin: 70px;
+}
+
+.contacts {
+  color: #846280;
+  margin: 70px;
+}
+
+.footer {
+  color: #846280;
+}
